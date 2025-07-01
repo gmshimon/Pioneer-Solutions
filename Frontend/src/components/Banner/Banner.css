@@ -1,0 +1,103 @@
+/* Banner animations */
+.animate-fade-in-down {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 1s ease-out forwards;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+.swiper,
+.swiper-slide {
+
+  padding: 0 !important;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Custom Swiper styles */
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: white;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #FFD84D;
+  transform: scale(1.2);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5); /* bg-white + bg-opacity-50 */
+  border-radius: 9999px; /* rounded-full */
+  padding: 0.75rem; /* p-3 */
+  transition: all 0.3s ease; /* transition-all + duration-300 */
+  transform: translateY(-50%); /* -translate-y-1/2 */
+}
+
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after{
+  background-color: rgba(255, 255, 255, 0.8); /* hover:bg-opacity-80 */
+  transform: translateY(-50%) scale(1.1); /* hover:scale-110 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 20px;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+}

@@ -1,0 +1,149 @@
+.solution-showcase {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #E8F5F0 0%, #ffffff 100%);
+    position: relative;
+    z-index: 1;
+}
+
+.solution-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 2.5rem 2rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(30, 138, 110, 0.1);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(30, 138, 110, 0.1);
+}
+
+.solution-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #1E8A6E, #25B08B);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.solution-card:hover::before {
+    transform: scaleX(1);
+}
+
+.solution-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+    color: #1E8A6E;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    background: rgba(30, 138, 110, 0.1);
+    border-radius: 20px;
+}
+
+.solution-card:hover .solution-icon {
+    transform: scale(1.1) rotate(5deg);
+    background: #1E8A6E;
+    color: white;
+}
+
+.solution-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1E8A6E;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.solution-description {
+    color: #4B5563;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    flex-grow: 1;
+}
+
+.solution-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.stat-item {
+    background: rgba(30, 138, 110, 0.05);
+    padding: 1rem;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.solution-card:hover .stat-item {
+    background: rgba(30, 138, 110, 0.1);
+    transform: translateY(-2px);
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1E8A6E;
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #4B5563;
+}
+
+.solution-tag {
+    position: absolute;
+    top: 1.5rem;
+    right: -2rem;
+    background: linear-gradient(90deg, #1E8A6E, #25B08B);
+    color: white;
+    padding: 0.5rem 2rem;
+    transform: rotate(45deg);
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 2px 10px rgba(30, 138, 110, 0.2);
+}
+
+/* Swiper custom styles */
+.swiper-slide {
+    width: 350px;
+    padding: 1rem;
+}
+
+@media (min-width: 640px) {
+    .swiper-slide {
+        width: 400px;
+    }
+}
+
+.swiper-pagination-bullet {
+    background: #1E8A6E;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background: #1E8A6E;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Add smooth transition for all hover effects */
+.solution-card * {
+    transition: all 0.3s ease;
+}
