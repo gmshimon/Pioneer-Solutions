@@ -76,7 +76,7 @@ const slides = [
         'Open doors to top universities around the world We guide you every step, from choosing a country to settling in',
       desktop: (
         <>
-          <span className='text-2xl'>
+          <span className='text-[10px] md:text-xl'>
             Open doors to top universities around the world We guide you every
             step, from choosing a country to settling in
           </span>
@@ -199,8 +199,8 @@ const Banner = () => (
               {/* Responsive Description */}
               <p
                 className={`
-                  text-xl xs:text-sm sm:text-base md:text-xl ${
-                    idx == 1 && 'pl-12'
+                  text-xs xs:text-sm sm:text-base md:text-xl ${
+                    idx == 1 && 'pl-8'
                   }
                   text-white mb-3 xs:mb-4 sm:mb-7 max-w-xs xs:max-w-sm sm:max-w-lg md:max-w-2xl
                   animate-fade-in-up animation-delay-400
