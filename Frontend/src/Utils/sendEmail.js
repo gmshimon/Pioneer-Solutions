@@ -2,9 +2,9 @@ import emailjs from '@emailjs/browser'
 
 export const sendConsultationEmail = data => {
   // Replace with your actual EmailJS values
-  const SERVICE_ID = 'service_iezxdgk'
-  const TEMPLATE_ID = 'template_n2in52o'
-  const PUBLIC_KEY = 'UEcZ9tAxfiOVQzzLC'
+  const SERVICE_ID = 'service_0hql4gp'
+  const TEMPLATE_ID = 'template_2pakpog'
+  const PUBLIC_KEY = 'awpn1ux_vef-NESly'
 
   // Optionally: adjust this if your template fields are named differently
   const templateParams = {
@@ -20,9 +20,9 @@ export const sendConsultationEmail = data => {
 
 export const sendScheduleConsultation = data => {
   // Replace with your actual EmailJS values
-  const SERVICE_ID = 'service_iezxdgk'
-  const TEMPLATE_ID = 'template_nz4q6qx'
-  const PUBLIC_KEY = 'UEcZ9tAxfiOVQzzLC'
+  const SERVICE_ID = 'service_0hql4gp'
+  const TEMPLATE_ID = 'template_r3hg83i'
+  const PUBLIC_KEY = 'awpn1ux_vef-NESly'
 
   // Optionally: adjust this if your template fields are named differently
   const templateParams = {
