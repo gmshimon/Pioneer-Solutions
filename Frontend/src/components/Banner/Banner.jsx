@@ -33,7 +33,7 @@ const slides = [
       )
     },
     subtitle: {
-      mobile: <span className='italic'>Your pathway to Global Education</span>,
+      mobile: <span className='italic'>Your Pathway To Global Education</span>,
       desktop: (
         <span className='italic text-3xl text-[#FFD84D]'>
           Your pathway to Global Education
@@ -155,7 +155,7 @@ const Banner = () => (
               className='w-full h-full object-cover transition-transform duration-300'
             />
             {/* Overlay */}
-            <div className='absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10' />
+            {/* <div className='absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10' /> */}
             {/* Text Content */}
             <div
               className={`

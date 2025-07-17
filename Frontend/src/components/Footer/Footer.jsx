@@ -39,7 +39,7 @@ const Footer = () => {
                 “
               </span>
               <span className='font-medium'>
-                Your pathway to global education.
+                Your Pathway To Global Education.
               </span>
               <span className='text-3xl text-[#1E8A6E] font-serif absolute right-2 bottom-0 select-none opacity-60'>
                 ”
