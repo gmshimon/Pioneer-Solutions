@@ -29,6 +29,7 @@ export const sendScheduleConsultation = data => {
     name: data.name,
     email: data.email,
     date: data.date,
+    phone:data.phone,
     time: data.time,
     message: data.message
   }

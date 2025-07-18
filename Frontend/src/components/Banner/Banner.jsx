@@ -35,8 +35,8 @@ const slides = [
     subtitle: {
       mobile: <span className='italic'>Your Pathway To Global Education</span>,
       desktop: (
-        <span className='italic text-3xl text-[#FFD84D]'>
-          Your pathway to Global Education
+        <span className='italic text-3xl text-[#ffc908]'>
+          Your Pathway To Global Education
         </span>
       )
     },
@@ -57,7 +57,7 @@ const slides = [
         <>
           Study Abroad
           <br />
-          with Pioneer
+          with Pioneer Solutions
         </>
       ),
       desktop: (
@@ -73,11 +73,11 @@ const slides = [
     },
     description: {
       mobile:
-        'Open doors to top universities around the world We guide you every step, from choosing a country to settling in',
+        'Your guide to top universities worldwide — from choice to arrival.',
       desktop: (
         <>
           <span className='text-[10px] md:text-xl'>
-            Open doors to top universities around the world We guide you every
+            Open doors to top universities around the world.We guide you every
             step, from choosing a country to settling in
           </span>
         </>
@@ -107,7 +107,7 @@ const slides = [
       mobile: 'Expert guidance abroad.',
       desktop:(
         <span className='text-2xl'>
-          Expert Guidance for Your Study Abroad Journey in Malaysia & Beyond
+          Expert Guidance for Your Study Abroad Journey in Malaysia & Beyond.
         </span>
       )
     },

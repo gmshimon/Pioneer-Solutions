@@ -50,7 +50,7 @@ const Footer = () => {
             <a href='#' className='social-icon hover:text-[#1DA1F2]'>
               <Twitter size={20} />
             </a>
-            <a href='#' className='social-icon hover:text-[#4267B2]'>
+            <a target='_blank' href='https://www.facebook.com/PioneerSolutions.bd' className='social-icon hover:text-[#4267B2]'>
               <Facebook size={20} />
             </a>
             <a href='#' className='social-icon hover:text-[#E4405F]'>
@@ -116,7 +116,7 @@ const Footer = () => {
                 href='mailto:pioneersolutions.bd@hotmail.com'
                 className='footer-link text-sm'
               >
-                pioneersolutions.bd@hotmail.com
+                pioneersolutions.bd@gmail.com
               </a>
             </li>
           </ul>

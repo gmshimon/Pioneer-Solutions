@@ -177,7 +177,7 @@ const ConsultationForm = () => {
                   onChange={handleChange}
                   required
                   className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                  placeholder='Preferred Study Destination'
+                  placeholder='Phone Number'
                 />
               </div>
 
@@ -198,7 +198,7 @@ const ConsultationForm = () => {
                   onChange={handleChange}
                   required
                   className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                  placeholder="Bachelor's Computer Science"
+                  placeholder="O level/A Level/SSC/HSC"
                 />
               </div>
 
@@ -219,7 +219,7 @@ const ConsultationForm = () => {
                   onChange={handleChange}
                   required
                   className='w-full h-28 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                  placeholder="Bachelor's Computer Science"
+                  placeholder="I am interested in Bachelor's computer science"
                 />
               </div>
 

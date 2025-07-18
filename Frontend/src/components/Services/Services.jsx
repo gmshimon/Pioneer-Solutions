@@ -77,14 +77,14 @@ const Services = () => {
           >
             Our Comprehensive Services
           </motion.h2>
-          <motion.p
+          {/* <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg text-gray-600 max-w-2xl mx-auto"
           >
             We offer a wide range of educational consulting services to help you achieve your study abroad dreams
-          </motion.p>
+          </motion.p> */}
         </div>
 
         <motion.div 

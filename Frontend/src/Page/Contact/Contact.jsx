@@ -17,14 +17,14 @@ import { Helmet } from 'react-helmet'
 import { ChevronDown, MessageSquare, ArrowDown } from 'react-feather'
 const faqs = [
   {
-    question: 'What are the basic admission requirements for Malaysian universities?',
+    question:
+      'What are the basic admission requirements for Malaysian universities?',
     answer:
       'Most universities require transcripts, English proficiency proof (like IELTS), passport, and a completed application form.'
   },
   {
     question: 'Can I apply to multiple universities in Malaysia at once?',
-    answer:
-      "Yes, you can apply to several institutions simultaneously.",
+    answer: 'Yes, you can apply to several institutions simultaneously.'
   },
   {
     question: 'How long does it take to process an admission application?',
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: 'When do admissions open for Malaysian universities?',
     answer:
-      "Intakes are usually in February/March and September/October each year."
+      'Intakes are usually in February/March and September/October each year.'
   },
   {
     question: 'What is the next step after receiving an offer letter?',
@@ -195,7 +195,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                placeholder='Preferred Study Destination'
+                placeholder='Phone Number'
               />
             </div>
 
@@ -216,7 +216,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                placeholder="Bachelor's Computer Science"
+                placeholder='O level/A Level/SSC/HSC'
               />
             </div>
 
@@ -237,7 +237,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className='w-full h-28 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2C5F5D] focus:border-transparent transition-all duration-300'
-                placeholder="Bachelor's Computer Science"
+                placeholder="I am interested in Bachelor's computer science"
               />
             </div>
 
@@ -286,13 +286,25 @@ const Contact = () => {
               <FaEnvelope className='text-[#1E8A6E]' size={20} />
               <div>
                 <h4 className='font-semibold text-gray-800'>Email</h4>
-                <p className='text-gray-600 text-sm'>pioneersolutions.bd@hotmail.com</p>
+                <p className='text-gray-600 text-sm'>
+                  pioneersolutions.bd@gmail.com
+                </p>
               </div>
             </div>
           </div>
-
+          <div className='mt-5'>
+            <iframe
+              title='Google Map'
+              src='https://www.google.com/maps?q=11/A,+Golapbagh,+Jatrabari,+Dhaka+1203,+Bangladesh&output=embed'
+              width='100%'
+              height='450'
+              style={{ border: 0 }}
+              allowFullScreen=''
+              loading='lazy'
+              referrerPolicy='no-referrer-when-downgrade'
+            ></iframe>
+          </div>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 pb-10 mt-10'>
-
             {/* <motion.h3
               className='text-3xl font-bold text-center text-[#1E8A6E] mb-12'
               initial={{ opacity: 0, y: 20 }}
@@ -302,8 +314,7 @@ const Contact = () => {
               Study Abroad FAQs
             </motion.h3> */}
 
-    
-            <div className='space-y-4'>
+            {/* <div className='space-y-4'>
               {faqs.map((item, index) => (
                 <motion.div
                   key={index}
@@ -358,12 +369,13 @@ const Contact = () => {
                   </motion.div>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </div>
           {/* Social Icons */}
           <div className='flex items-center space-x-4 mt-8'>
             <a
-              href='#'
+              target='_blank'
+              href='https://www.facebook.com/PioneerSolutions.bd'
               className='text-[#1E8A6E] hover:text-[#166d57] transition'
             >
               <FaFacebook size={20} />

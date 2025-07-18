@@ -26,6 +26,7 @@ const StudyConsultation = () => {
     name: "",
     email: "",
     date: "",
+    phone:'',
     time: "",
     message: "",
   });

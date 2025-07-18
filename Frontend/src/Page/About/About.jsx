@@ -284,7 +284,7 @@ export default function About () {
       </motion.div>
 
       {/* Why Choose Us */}
-      <motion.div
+      {/* <motion.div
         className='max-w-2xl mx-auto mb-16 px-3'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -313,7 +313,7 @@ export default function About () {
             ))}
           </ul>
         </div>
-      </motion.div>
+      </motion.div> */}
 
       {/* CTA */}
       <motion.div

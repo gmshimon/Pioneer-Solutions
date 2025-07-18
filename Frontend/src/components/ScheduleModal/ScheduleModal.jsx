@@ -80,6 +80,20 @@ const ScheduleModal = ({
                   placeholder='you@email.com'
                 />
               </div>
+              <div>
+                <label className='block mb-1 text-gray-700 text-sm'>
+                  Phone
+                </label>
+                <input
+                  type='text'
+                  name='phone'
+                  required
+                  value={form.phone}
+                  onChange={handleChange}
+                  className='w-full border rounded-lg px-3 py-2 focus:ring-[#2C5F5D] focus:border-[#2C5F5D]'
+                  placeholder='Phone Number'
+                />
+              </div>
               <div className='flex gap-2'>
                 <div className='flex-1'>
                   <label className='block mb-1 text-gray-700 text-sm'>

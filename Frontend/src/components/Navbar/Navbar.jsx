@@ -259,7 +259,7 @@ const Navbar = () => {
             </div>
             <div className='flex space-x-4'>
               <a
-                href='https://facebook.com'
+                href='https://www.facebook.com/PioneerSolutions.bd'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='text-white hover:text-[#FFD84D] transition-colors duration-300'

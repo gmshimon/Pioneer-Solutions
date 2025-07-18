@@ -160,7 +160,15 @@ const SingleStudyAbroad = () => {
           className='mx-auto md:h-[900px] w-full  object-center shadow-2xl '
         />
       </div>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-6 bg-white/80 rounded-xl shadow-md mt-8 mb-6'>
+      <div className='max-w-7xl mx-auto text-justify text-lg text-gray-700 mb-4'>
+        <h1 className='text-3xl font-bold mb-6 text-center'>
+          About Malaysia
+        </h1>
+        <p>
+          Malaysia is a Southeast Asian country known for its cultural diversity, modern cities, and natural beauty. Located just a short flight away from Bangladesh, it offers an ideal destination for students seeking quality education close to home. Over the years, Malaysia has become a prominent hub for international education, attracting students from across the globe. The country is home to globally recognized universities, including several branch campuses of renowned institutions. With affordable tuition fees, English-medium instruction, and a safe, welcoming environment, Malaysia offers a balanced and enriching study experience. Its multicultural society and excellent student support services make it easier for Bangladeshi students to adapt and thrive.
+        </p>
+      </div>
+      {/* <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-6 bg-white/80 rounded-xl shadow-md mt-8 mb-6'>
         <blockquote className='border-l-4 border-[#1E8A6E] bg-[#E9F9F5] pl-8 py-3 mb-6 rounded-md italic text-gray-700 text-xl relative'>
           <svg
             className='absolute -left-2 top-3 w-8 h-8 text-[#1E8A6E] opacity-30'
@@ -295,7 +303,7 @@ const SingleStudyAbroad = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className='max-w-7xl mx-auto space-y-10 mb-10'>
         <div>
           <h3 className='text-3xl font-bold mb-6 text-center'>
